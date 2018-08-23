@@ -1,0 +1,1 @@
+python3 shoujinzhe-server.py 8888
