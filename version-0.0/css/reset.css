@@ -1,0 +1,73 @@
+/* 把标签默认的间距设为0 */
+body,ul,ol,p,h1,h2,h3,h4,h5,h6,dl,dd,select,input,textarea,form{margin:0;padding:0}
+
+/* 让h标签文字大小继承body的文字设置 */
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+/* 去掉列表默认的图标 */
+ul,ol{list-style:none;}
+
+/* 去掉em默认的斜体 */
+em{font-style: normal;}
+
+/* 去掉a标签默认的下划线 */
+a{text-decoration:none;}
+
+
+/* 去掉加链接时产生的框线 */
+img{border:0;}
+
+/* 清除浮动 */
+.clearfix:before,.clearfix:after{content:"";display:table}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1}
+
+/* 浮动 */
+.fl{float:left}
+.fr{float:right}
+
+
+
+/* 注册页面 */
+.register_con{
+	width:700px;
+	height:560px;
+	margin:50px auto 0;
+	background:url(../img/interval_line.png) 300px top no-repeat;
+}
+
+.l_con{width:300px;}
+.reg_logo{width:200px;height:76px;float:right;margin-right:30px;}
+.reg_logo img{ width:100%;}
+.reg_slogan{width:300px;height:30px;float:right;text-align:right;font-size:18px;color:#bbb;margin:20px 30px 0 0;font-weight:100}
+.reg_banner{width:251px;height:329px;background:url(../img/register_banner.png) no-repeat;float:right; margin:20px 10px 0 0;opacity:0.5}
+
+
+.r_con{width:400px;}
+.reg_title{width:360px;height:50px;float:left;margin-left:30px;border-bottom:1px solid #e0e0e0}
+.reg_title h1{height:50px;line-height:50px;float:left;font-size:24px;color:#a8a8a8;font-weight:bold;}
+.reg_title a{float:right;height:20px;line-height:20px;font-size:16px;color:#fe0000;padding-right:20px;background:url(../img/icons02.png) 35px 3px no-repeat;margin-top:15px}
+
+.reg_form{width:360px;margin:30px 0 0 30px;float:left;position:relative;}
+.reg_form li{height:70px;}
+.reg_form li label{width:70px;height:40px;line-height:40px;float:left;font-size:14px;color:#a8a8a8}
+.reg_form li input{width:288px;height:38px;border:1px solid #e0e0e0;float:left;text-indent:10px;background-color:#f8f8f8;outline: none;}
+.reg_form li.agreement input{width:15px;height:15px;float:left;margin-top:13px}
+.reg_form li.agreement label{width:300px;float:left;margin-left:10px;}
+.reg_form li.reg_sub input{width:360px;height:40px;background-color:#999;font-size:18px;color:#fff;font-family:'Microsoft Yahei';cursor:pointer;}
+.reg_form li .error_tip{float:left;height:30px;line-height:30px;margin-left:70px;color:#6ac1f8;display:none; font-size: 12px;}
+.reg_form li .error_tip2{float:left;height:20px;line-height:20px;color:#e62e2e;display:none;font-size: 12px;}
+
+
+
+/* 页面底部样式 */
+.footer{
+	border-top:1px solid #6ac1f8;
+
+}
+
+.foot_link{text-align:center;margin-top:30px;}
+.foot_link a,.foot_link span{color:#4e4e4e;}
+.foot_link a:hover{color:#ff8800}
+.foot_link span{padding:0 10px}
+.footer p{text-align:center; margin-top:10px; font-size: 14px; color: #999;}
